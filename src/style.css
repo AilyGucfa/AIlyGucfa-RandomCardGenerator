@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("3d-casino.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#first-suit {
+  float: left;
+  margin-top: -25px;
+}
+#second-suit {
+  float: right;
+  transform: rotate(180deg);
+}
+.card-body {
+  font-size: 80px;
+}
+#card-value {
+  margin-top: 100px;
+  font-family: "Times New Roman", serif;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+}
+#button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#button:hover {
+  background-color: #45a049;
+}
+
+#button:focus {
+  outline: none;
+}
+
+#button:active {
+  background-color: #3e8e41;
+}
